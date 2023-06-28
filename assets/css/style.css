@@ -144,17 +144,19 @@ body {
 }
 
 .text-image {
+  border: 2px solid black;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   gap: 45px;
   margin: 50px;
+  padding: 30px;
+  box-shadow: 4px 7px 2px -5px rgba(0, 0, 0, 0.46);
 }
 
 .homer {
   height: 30vh;
-  border-radius: 20px;
   border: 2px solid black;
   box-shadow: 4px 7px 2px -5px rgba(0, 0, 0, 0.46);
 }
